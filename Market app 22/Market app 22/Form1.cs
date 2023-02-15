@@ -38,5 +38,20 @@ namespace Market_app_22
             massiv[0] = ad;
             listView1.Items.Add(ad);
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            button4.BackColor = Color.Red;
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            button6.BackColor = Color.Orange;
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            button5.BackColor = Color.Green;
+        }
     }
 }
